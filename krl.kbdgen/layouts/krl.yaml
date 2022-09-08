@@ -5,22 +5,22 @@ displayNames:
 modes:
   android:
     default: |
-      á š e r t y u i o p â
-      a s d f g h j k l đ ä
-        ž z č c v b n m ŋ
+      š w e r t y u i o p ž
+      a s d f g h j k l ö ä
+        , z č c v b n m ,
     shift: |
-      Á Š E R T Y U I O P Â
-      A S D F G H J K L Đ Ä
-        Ž Z Č C V B N M Ŋ
+      Š W E R T Y U I O P Ž
+      A S D F G H J K L Ö Ä
+        , Z Č C V B N M ,
   ios:
     default: |
-      á š e r t y u i o p â
-      a s d f g h j k l đ ä
-      \s{shift} ž z č c v b n m ŋ \s{backspace}
+      š w e r t y u i o p ž
+      a s d f g h j k l ö ä
+      \s{shift}  z č c v b n m , . \s{backspace}
     shift: |
-      Á Š E R T Y U I O P Â
-      A S D F G H J K L Đ Ä
-      \s{shift} Ž Z Č C V B N M Ŋ \s{backspace}
+      Š W E R T Y U I O P Ž
+      A S D F G H J K L Ö Ä
+      \s{shift}  Z Č C V B N M , . \s{backspace}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
       - / : ; ( ) kr & @ "
@@ -31,13 +31,13 @@ modes:
       \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}  
   ipad-9in:
     default: |
-      \s{"`":0.75}  á š e r t y u i o p â \s{backspace:1.25}
-      \s{shift}     a s d f g h j k l đ ä \s{shift}
-      \s{spacer:0.5}  ž z č c v b n m ŋ . \s{spacer:0.5} \s{return:2}
+      \s{"`":0.75}  š w e r t y u i o p ž \s{backspace:1.25}
+      \s{shift}     a s d f g h j k l ö ä \s{shift}
+      \s{spacer:0.5}  z č c v b n m , . \s{spacer:0.5} \s{return:2}
     shift: |
-      \s{"`":0.75}  Á Š E R T Y U I O P Â \s{backspace:1.25}
-      \s{shift}     A S D F G H J K L Đ Ä \s{shift}
-      \s{spacer:0.5}  Ž Z Č C V B N M Ŋ . \s{spacer:0.5} \s{return:2}
+      \s{"`":0.75}  Š W E R T Y U I O P Ž \s{backspace:1.25}
+      \s{shift}     A S D F G H J K L Ö Ä \s{shift}
+      \s{spacer:0.5}  Z Č C V B N M , . \s{spacer:0.5} \s{return:2}
     alt: |
       \s{"@":0.75}  1 2 3 4 5 6 7 8 9 0 å \s{backspace:1.25}
       \s{shift}     % # € & * ( ) ' " ö æ \s{shift}
@@ -83,19 +83,19 @@ modes:
   mac:
     default: |
       § 1 2 3 4 5 6 7 8 9 0 + ´
-        á š e r t y u i o p â ŋ
-        a s d f g h j k l đ ä '
-      ž z č c v b n m , . -
+      š w e r t y u i o p ž ¨
+      a s d f g h j k l ö ä '
+        < z č c v b n m , . -
     shift: |
       ° ! " # $ % & / ( ) = ? `
-        Á Š E R T Y U I O P Â Ŋ
-        A S D F G H J K L Đ Ä *
-      Ž Z Č C V B N M ; : _
+      Š W E R T Y U I O P Ž ¨
+      A S D F G H J K L Ö Ä '
+        < Z Č C V B N M , . -
     caps: |
       § 1 2 3 4 5 6 7 8 9 0 + ´
-        Á Š E R T Y U I O P Â Ŋ
-        A S D F G H J K L Ö Æ Đ
-      Ž Z Č C V B N M , . -
+      Š W E R T Y U I O P Ž ¨
+      A S D F G H J K L Ö Ä '
+        < Z Č C V B N M , . -
     alt: |
       ¶ © ™ £ € ˆ § | [ ] ˝ ± \u{301}
         q w é ˇ y Þ ˀ ʼ ø ˙ å ¨
@@ -134,24 +134,24 @@ modes:
   win:
     default: |
       § 1 2 3 4 5 6 7 8 9 0 + ´
-        á š e r t y u i o p â ŋ
-        a s d f g h j k l đ ä '
-      ž z č c v b n m , . -
+      š w e r t y u i o p ž ¨
+      a s d f g h j k l ö ä '
+        < z č c v b n m , . -
     shift: |
       ½ ! " # ¤ % & / ( ) = ? `
-        Á Š E R T Y U I O P Â Ŋ
-        A S D F G H J K L Đ Ä *
-      Ž Z Č C V B N M ; : _
+      Š W E R T Y U I O P Ž ¨
+      A S D F G H J K L Ö Ä '
+        < Z Č C V B N M , . -
     caps: |
       § 1 2 3 4 5 6 7 8 9 0 + ´
-        Á Š E R T Y U I O P Â Ŋ
-        A S D F G H J K L Đ Ä *
-      Ž Z Č C V B N M , . -
+      š w e r t y u i o p ž ¨
+      a s d f g h j k l ö ä '
+        < z č c v b n m , . -
     caps+shift: |
       ½ ! " # ¤ % & / ( ) = ? `
-        á š e r t y u i o p â ŋ
-        a s d f g h j k l đ ä '
-      ž z č c v b n m ; : _
+      š w e r t y u i o p ž ¨
+      a s d f g h j k l ö ä '
+        < z č c v b n m , . -
     alt: |
       | \u{0} @ £ $     €     \u{0} {     [     ]     }     \ \u{0}
         q     w € \u{0} ŧ     \u{0} ø     ï     õ     \u{0} å ~
@@ -776,8 +776,8 @@ transforms:
     U: Ũ
 
 strings:
-  space: koskâ
-  return: raddalâs
+  space: väli
+  return: uuši rivi
 space:
   mac:
     caps: '\u{A0}'
@@ -788,15 +788,15 @@ space:
 
 targets:
   ios:
-    legacyName: inari_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smn?platform=mobile
-    spellerPath: smn.bhfst
+    legacyName: vienan_karjala_keyboard
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-krl?platform=mobile
+    spellerPath: krl.bhfst
   android:
-    legacyName: inari_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smn?platform=mobile
-    spellerPath: smn.bhfst
+    legacyName: vienan_karjala_keyboard
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-krl?platform=mobile
+    spellerPath: krl.bhfst
   win:
     locale: smn-Latn
-    languageName: Anarâškielâ
+    languageName: Vienankarjala
   chrome:
     locale: fi
