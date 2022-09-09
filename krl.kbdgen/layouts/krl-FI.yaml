@@ -103,5 +103,5 @@ deadKeys:
     alt: ['~']
 targets:
   win:
-    locale: krl-Latn-fi
+    locale: krl-Latn-FI
     languageName: Vienankarjala (Finland)
