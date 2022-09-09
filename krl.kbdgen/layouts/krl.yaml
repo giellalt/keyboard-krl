@@ -788,15 +788,13 @@ space:
 
 targets:
   ios:
-    legacyName: vienan_karjala_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-krl?platform=mobile
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-krl?platform=mobile&channel=nightly
     spellerPath: krl.bhfst
   android:
-    legacyName: vienan_karjala_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-krl?platform=mobile
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-krl?platform=mobile&channel=nightly
     spellerPath: krl.bhfst
   win:
-    locale: smn-Latn
+    locale: krl-Latn-FI
     languageName: Vienankarjala
   chrome:
     locale: fi
