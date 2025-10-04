@@ -5,5 +5,5 @@ template_sha = "43631dc24c0223786be78636665a5316e338004b"
 [replacements]
 __LICENSE__ = "LGPL"
 __UND2C__ = "krl"
-__UNDEFINED__ = "Karelian"
+__UNDEFINED__ = "Viena Karelian"
 __UND__ = "krl"

@@ -1,17 +1,17 @@
 locales:
   krl:
-    name: Karelian Keyboards
+    name: Viena Karelian Keyboards
     description: >-
-      Mobile OS keyboards for the Karelian language from the Divvun group
+      Mobile OS keyboards for the Viena Karelian language from the Divvun group
       at UiT.
   en:
-    name: Karelian Keyboards
+    name: Viena Karelian Keyboards
     description: >-
-      Mobile OS keyboards for the Karelian language from the Divvun group
+      Mobile OS keyboards for the Viena Karelian language from the Divvun group
       at UiT.
   nb:
-    name: Karelian tastatur
-    description: Mobiltastatur for Karelian fra Divvun-gruppa.
+    name: Viena Karelian tastatur
+    description: Mobiltastatur for Viena Karelian fra Divvun-gruppa.
 author: 'The Divvun Group, UiT Norgga árktalaš universitehta'
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 email: feedback@divvun.no

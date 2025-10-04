@@ -1,4 +1,4 @@
-# Keyboards for Karelian
+# Keyboards for Viena Karelian
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/keyboard-krl)](https://github.com/giellalt/keyboard-krl/issues)
 [![Build Status](https://github.com/giellalt/keyboard-krl/workflows/Build%20Keyboards/badge.svg)](https://github.com/giellalt/keyboard-krl/actions)
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/github/license/giellalt/keyboard-krl)](https://github.com/giellalt/keyboard-krl/blob/main/LICENSE)
 
 This repository contains source files for
-keyboards for the Karelian language. The code
+keyboards for the Viena Karelian language. The code
 is licensed under the LGPL license, and the license is
 also detailed in the [LICENSE](LICENSE) file. The authors named
 in the AUTHORS file are available for other licensing options.
