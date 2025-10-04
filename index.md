@@ -1,4 +1,4 @@
-# Documentation for the Karelian keyboards
+# Documentation for the Viena Karelian keyboards
 
 # Layouts
 

@@ -1,4 +1,4 @@
-# Keyboard layout(s) for Karelian
+# Keyboard layout(s) for Viena Karelian
 
 **Legend:**
 
